@@ -22,7 +22,7 @@ Focusing on [Pertussis]{style="color:#0271BC"} (whooping cough), students will u
 :::
 
 
-This will be followed by a modeling section that demonstrates how pre-vaccination data can be used to predict post-vaccination immune responses. Finally, students will participate in an open community prediction challenge. The goal of which is to predict from pre-vaccination data the immune responses of 20 new individuals after pertussis booster vaccination.
+This will be followed by a modeling section that demonstrates how pre-vaccination data can be used to predict post-vaccination immune responses. Finally, students will participate in an open community prediction challenge. The goal of which is to predict from pre-vaccination data the immune responses of 54 new individuals after pertussis booster vaccination.
 
 
 
