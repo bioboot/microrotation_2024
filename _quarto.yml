@@ -4,7 +4,7 @@ project:
   resources:
     - "/timeline/*"
     - "/timeline/img/*"
-    - "/slides/slides_class18_2update.pdf"
+    - "slides/SystemsVaccinology_LectureSlides.pdf"
 
 website:
   title: "MicroRotation 2024"
@@ -36,7 +36,7 @@ website:
         text: CMI-PB
         target: _blank
       - icon: github
-        href: https://github.com/bioboot/cmi-pb_teaching
+        href: https://github.com/bioboot/microrotation_2024
         target: _blank
         aria-label: Teaching GitHub
 
