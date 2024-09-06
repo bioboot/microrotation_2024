@@ -1,0 +1,63 @@
+---
+title: ""
+engine: knitr
+---
+
+## Overview
+
+This MicroRotation introduces the field of [**systems vaccinology**]{style="color:#0271BC"}, which uses "multi-omics" approaches combined with computational modeling to provide insights into vaccine-induced immunity. 
+
+::: {.grid}
+
+::: {.g-col-7}
+
+Focusing on [Pertussis]{style="color:#0271BC"} (whooping cough), students will use the R programming language to analyze pre- and post-vaccination multi-omic datasets from the NIH-funded  [**C**ommunity for **M**odeling **P**ertussis **B**oost (**CMI-PB**)](https://www.cmi-pb.org/){target="_blank"} project.  
+
+
+:::
+
+::: {.g-col-5}
+![](https://www.cmi-pb.org/static/img/CMIPB.jpg)
+:::
+:::
+
+
+This will be followed by a modeling section that demonstrates how pre-vaccination data can be used to predict post-vaccination immune responses. Finally, students will participate in an open community prediction challenge. The goal of which is to predict from pre-vaccination data the immune responses of 20 new individuals after pertussis booster vaccination.
+
+
+
+## Resources
+Major resources to help you get started include:
+
+- [A gental introduction to R fundamentals](https://bioboot.github.io/bggn213_F24/class-material/r_intro/r_intro.html){target="_blank"}  
+- [Installing R and RStudio](https://bioboot.github.io/bggn213_F24/setup/#rsetup){target="_blank"}
+- [Background and biological information on Pertussis](background/intro_to_pertussis.qmd){target="_blank"}
+- [An annotated history of major Pertussis milestones](timeline/pertussis_timeline.html){target="_blank"}
+- [Lecture slides introducing CMI-PB](slides/SystemsVaccinology_LectureSlides.pdf){target="_blank"}
+- [Hands on introduction to using and accessing CMI-PB data](introduction/intro_to_cmi-pb.qmd){target="_blank"} 
+- [The tidymodels framework for machine learning](https://www.tidymodels.org){.external target="_blank"}  
+- [First steps in modeling with CMI-PB data](model/TOUPDATE){target="_blank"}
+- [How to participate in the CMI-PB prediction challenge](https://www.cmi-pb.org/blog/prediction-challenge-overview/#Prediction%20challenge%20tasks){.external target="_blank"}
+- [Example model construction and submission](https://rpubs.com/pshinde/public_challenge_submission_file_prep_demo){.external target="_blank"}  
+- [The CMI-PB solutions center](https://discuss.cmi-pb.org){.external target="_blank"} 
+
+## Location
+We will meet from [1:30-4:30pm]{style="color:#0271BC"} in [**TATA 3101**]{style="color:#0271BC"}  ([Map](https://goo.gl/maps/Cd8z9Zexx6q){.external target="_blank"}) on Tuesday, September 10th through Thursday September 12th. On the last day we will be in [**TATA 3103**]{style="color:#0271BC"}. These rooms are both near the main TATA Kavli Auditorium.  
+
+## Contact
+Much of this material was developed for graduate level instruction at UC San Diego. We would be happy to help you adapt and utilize this material for your own purposes.
+
+Please contact [Barry](mailto:bjgrant@ucsd.edu) and/or [Bjoern](mailto:bpeters@lji.org). We would be delighted to hear from you. 
+
+This work is licensed under a Creative Commons License: [CC BY-NC](http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1) 
+
+::: {.callout-tip collapse="true" appearance="simple"}
+## About: CC BY-NC 4.0 
+This license requires that users give credit to the creator. It allows users to distribute, remix, adapt, and build upon the material in any medium or format, for noncommercial purposes.  
+
+[See the License Deed](http://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1).
+:::
+
+
+First authored 2024-09-06.  
+Last updated `r Sys.Date()`.  

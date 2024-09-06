@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "/timeline/*"
+    - "/timeline/img/*"
+    - "/slides/slides_class18_2update.pdf"
+
+website:
+  title: "MicroRotation 2024"
+  site-url: https://bioboot.github.io/micro_teaching/
+  repo-url: https://github.com/bioboot/micro_teaching
+  issue-url: https://github.com/bioboot/micro_teaching/issues/new/choose
+  repo-actions: [edit, issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "Resources"
+        menu:
+          - href: introduction/intro_to_cmi-pb.qmd
+            text: "Introducing CMI-PB Data"
+          - href: background/intro_to_pertussis.qmd
+            text: "Pertussis Background"
+          - href: timeline/pertussis_timeline.html
+            text: "Pertussis Timeline"
+            target: _blank
+          - href: https://rpubs.com/Rasteh/1080854
+            text: "Modeling with CMI-PB data"
+          - href: https://www.cmi-pb.org/blog/prediction-challenge-overview/
+            text: "Prediction challange"
+            target: _blank
+
+    right:
+      - href: https://www.cmi-pb.org
+        text: CMI-PB
+        target: _blank
+      - icon: github
+        href: https://github.com/bioboot/cmi-pb_teaching
+        target: _blank
+        aria-label: Teaching GitHub
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
